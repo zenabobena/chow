@@ -25,6 +25,10 @@ npm test         # Vitest + Testing Library flows
 npm run build    # type-check + production build to dist/
 ```
 
+## Deployment
+
+Every push to `main` is built, tested and published to GitHub Pages by `.github/workflows/deploy.yml`. The live site is https://zenabobena.github.io/chow/. This only works once **Settings → Pages → Source** is set to **GitHub Actions**.
+
 Built with React 19, TypeScript and Vite. Icons come from lucide-react.
 
 > Restaurant listings are sample data. Delivery service links go to each service's official website.
